@@ -11,7 +11,6 @@
   inputs.src-tm_client-main.ref   = "refs/heads/main";
   inputs.src-tm_client-main.owner = "termermc";
   inputs.src-tm_client-main.repo  = "nim-tm-client";
-  inputs.src-tm_client-main.dir   = "";
   inputs.src-tm_client-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
